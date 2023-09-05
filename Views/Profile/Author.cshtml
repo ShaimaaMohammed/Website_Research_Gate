@@ -1,0 +1,116 @@
+﻿@model Research_Gate_1._1.Models.Author
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="name​, ​name">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>@Model.FirstName @Model.LastName | Research Gate</title>
+    <link rel="stylesheet" href="~/Profile Asset/CSS/nicepage.css" media="screen">
+    <link rel="stylesheet" href="~/Profile Asset/CSS/Profile.css" media="screen">
+    <script class="u-script" type="text/javascript" src="~/Profile Asset/script/jquery-1.9.1.min.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="~/Profile Asset/script/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.10.5, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Page 2">
+    <meta property="og:type" content="website">
+</head>
+<body class="u-body u-xl-mode">
+    <section class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-grey-10 u-section-1" id="carousel_1dd8">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+            <div class="u-shape u-shape-svg u-text-custom-color-1 u-shape-1">
+                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xlink:href="#svg-006d"></use></svg>
+                <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-006d" style="enable-background:new 0 0 160 160;">
+                    <path d="M80,30c27.6,0,50,22.4,50,50s-22.4,50-50,50s-50-22.4-50-50S52.4,30,80,30 M80,0C35.8,0,0,35.8,0,80s35.8,80,80,80
+	s80-35.8,80-80S124.2,0,80,0L80,0z"></path>
+                </svg>
+            </div>
+            @{
+                string imageBase64 = Convert.ToBase64String(Model.ProfileImage);
+                string imageSrc = string.Format("data:image/jpg;base64,{0}", imageBase64);
+                <img src="@imageSrc" alt="Paris" class="u-image u-image-circle u-image-1" />
+            }
+            <div class="u-container-style u-group u-radius-5 u-shape-round u-white u-group-1">
+                <div class="u-container-layout u-container-layout-1">
+                    <h2 class="u-align-center u-text u-text-1"> @Model.FirstName @Model.LastName</h2><span class="u-file-icon u-icon u-icon-1"><img src="~/Profile Asset/images/1782765.png" alt=""></span>
+                    <h3 class="u-align-left u-text u-text-2">@Model.Email</h3><span class="u-align-left u-file-icon u-icon u-icon-2"><img src="~/Profile Asset/images/455705.png" alt=""></span>
+                    <h3 class="u-align-left u-text u-text-3">
+                        @Model.Mobile<span style="font-weight: 700;"></span>
+                    </h3><span class="u-file-icon u-icon u-icon-3"><img src="~/Profile Asset/images/3418754.png" alt=""></span>
+                    <h3 class="u-align-left u-text u-text-4">@Model.University</h3><span class="u-file-icon u-icon u-icon-4"><img src="~/Profile Asset/images/711161.png" alt=""></span>
+                    <h3 class="u-align-left u-text u-text-5">@Model.Department</h3>
+                    @{
+                        if (Convert.ToInt32(Session["userid"]) == Model.ID)
+                        {
+
+                        <button class="u-active-palette-4-dark-3 u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-palette-4-dark-3 u-radius-5 u-text-body-alt-color u-btn-1" onclick="location.href='@Url.Action("Edit", "EditProfile")'">Edit profile</button>
+
+                        }
+                     }
+                </div>
+            </div>
+            <div class="u-custom-color-1 u-shape u-shape-circle u-shape-2"></div>
+        </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-2" id="carousel_cf83">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <div class="u-expanded-width u-table u-table-responsive u-table-1">
+                <table class="u-table-entity u-table-entity-1">
+                    <colgroup>
+                        <col width="33.3%">
+                        <col width="33.3%">
+                        <col width="33.400000000000006%">
+                    </colgroup>
+                    <thead class="u-custom-color-1 u-custom-font u-font-courier-new u-table-header u-table-header-1">
+                        <tr style="height: 48px;">
+                            <th class="u-table-cell">Title</th>
+                            <th class="u-table-cell">Publish Year</th>
+                            <th class="u-table-cell">Category</th>
+                            @{
+                                if (Convert.ToInt32(Session["userid"]) == Model.ID)
+                                {
+
+                                    <th class="u-table-cell"></th>
+
+                                }
+                            }
+                        </tr>
+                    </thead>
+                    <tbody class="u-table-body">
+                        <tr style="height: 55px;">
+                            <td class="u-border-1 u-border-grey-30 u-border-no-left u-border-no-right u-first-column u-table-cell u-table-cell-4">
+                                <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="@Url.Action("action", "controller")" data-page-id="1883204">Item #1</a>
+                            </td>
+                            <td class="u-border-1 u-border-grey-30 u-border-no-left u-border-no-right u-table-cell">Description</td>
+                            <td class="u-border-1 u-border-grey-30 u-border-no-left u-border-no-right u-table-cell">Discount:</td>
+                            @{
+                                if (Convert.ToInt32(Session["userid"]) == Model.ID)
+                                {
+
+                                    <td class="u-border-1 u-border-grey-30 u-border-no-left u-border-no-right u-table-cell"><a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="@Url.Action("action", "controller")" data-page-id="1883204">Del</a></td>
+
+                                }
+                            }
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            @{
+                if (Convert.ToInt32(Session["userid"]) == Model.ID)
+                {
+
+                    <button class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-palette-1-light-1 u-radius-50 u-btn-2" onclick="location.href='@Url.Action("action", "controller")'">add paper</button>
+
+                }
+            }
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,71 @@
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\Research Gate 1.1.dll.config
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\Research Gate 1.1.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\Research Gate 1.1.pdb
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\csc.exe
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\csc.exe.config
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\csc.rsp
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\csi.exe
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\csi.exe.config
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\csi.rsp
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.AppContext.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Collections.Immutable.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Console.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.IO.Compression.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.IO.FileSystem.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.IO.Pipes.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Reflection.Metadata.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Security.AccessControl.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Security.Claims.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Security.Principal.Windows.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.ValueTuple.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Xml.XPath.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\vbc.exe
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\vbc.exe.config
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\vbc.rsp
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\VBCSCompiler.exe
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\roslyn\VBCSCompiler.exe.config
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\EntityFramework.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\Microsoft.Web.Infrastructure.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Helpers.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Mvc.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Razor.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Webpages.Deployment.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Webpages.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Webpages.Razor.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\EntityFramework.xml
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Razor.xml
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Webpages.xml
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Webpages.Deployment.xml
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Webpages.Razor.xml
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Helpers.xml
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\System.Web.Mvc.xml
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\obj\Debug\Research Gate 1.1.csprojAssemblyReference.cache
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\obj\Debug\Research Gate 1.1.csproj.CoreCompileInputs.cache
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\obj\Debug\Research Gate 1.1.csproj.CopyComplete
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\obj\Debug\Research Gate 1.1.dll
+D:\learn\.net\Research Gate 1.1\Research Gate 1.1\obj\Debug\Research Gate 1.1.pdb
